@@ -6,6 +6,7 @@ import {
 } from "../controller/adminAnalyticsController.js";
 import { protectAdmin } from "../middleware/adminAuthMiddleware.js";
 
+
 const router = express.Router();
 
 // All routes require admin authentication
